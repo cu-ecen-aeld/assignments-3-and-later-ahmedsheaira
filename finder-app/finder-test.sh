@@ -31,11 +31,11 @@ echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 
 # Clean any previous build artifacts
 # Uncomment if you have specific build artifacts to clean
-make clean
+# make clean
 
 # Compile your writer application using native compilation
 # Replace this with your actual compile command
-make
+# make
 
 rm -rf "${WRITEDIR}"
 
